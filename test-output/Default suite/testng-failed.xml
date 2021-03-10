@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="CPSAT_Sep2019.Question4">
+        <methods>
+          <include name="firststep"/>
+          <include name="DataDrivenTest1" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- CPSAT_Sep2019.Question4 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
